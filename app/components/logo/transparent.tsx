@@ -1,8 +1,7 @@
-import Image from "next/image"
-import LogoTs from "../../app/images/02421c3f-a230-4d8d-9dfd-b7fd09551dab.png"
+import { ComponentProps } from "react";
 
-export function TransparentLogo() {
-    return <div className="shrink-0 w-[200px] h-14 relative">
-        <Image  fill src={LogoTs} alt="Quarum Logo" className="object-contain" />
-    </div>
+export function SiteLogo(props: ComponentProps<"svg">) {
+    return <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+        <path d="M29.2812 2.1875H19.7188C10.0365 2.1875 2.1875 10.0365 2.1875 19.7188V29.2812C2.1875 38.9635 10.0365 46.8125 19.7188 46.8125H29.2812C38.9635 46.8125 46.8125 38.9635 46.8125 29.2812V19.7188C46.8125 10.0365 38.9635 2.1875 29.2812 2.1875Z"  stroke-width="4" />
+    </svg>
 }
