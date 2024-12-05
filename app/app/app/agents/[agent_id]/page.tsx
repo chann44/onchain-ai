@@ -1,4 +1,5 @@
 import { AgentHeaderStats } from "@/components/agent/agent-header";
+import { AgentOnChainActivity } from "@/components/agent/agent-on-chain-activity";
 import { AgentProfile } from "@/components/agent/agent-profile";
 import { AgentSkillTratis } from "@/components/agent/agent-skill-traits";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -22,5 +23,6 @@ export default function AgentProfilePage() {
             </div>
         </section>
         <Separator />
+        <AgentOnChainActivity />
     </main>
 }
