@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## LANDING PAGE
 
-## Getting Started
+1. Theme
+   shadcn yellow theme
+2. How it works Banto Grid
+3. Create Ai Agent
+4. CTA
+5. Footer
 
-First, run the development server:
+## Alpha Chat Page
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. History of chat
+2. chat box where people can chat with our agent
+3. polymarket quesition
+   1. when clicked copy it into the chat box
+   2. execute the question when submitted
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Custom Agent
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. a form to define you agent
+2. submit and creat agetn
+3. where will the agent will be shown ??
+4. how can you execute your custom agent ??
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Automatic agents
 
-## Learn More
+1. how it works ??
+2. what will we need store in the automatic part
 
-To learn more about Next.js, take a look at the following resources:
+## portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. what we will show
+2. positions ??
+3. projections ??
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Agent profile
 
-## Deploy on Vercel
+1. global
+   1. this is for all the tx a agent done on the plateform
+2. personal
+   current connected user txs
+3. Wallet address
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Transactions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. agent txs
+2. it will be in agent profile
+
+## supported tokens/tokens
+
+1. chill guy
+2. bruneate
+3. asian
+4. Dgen Token
+5. clanker
+
+## Roadmap
