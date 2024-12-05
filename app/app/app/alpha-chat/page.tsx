@@ -117,7 +117,7 @@ export default function Page() {
 
   return (
     <div className="h-full w-full">
-      <div className="relative flex h-full flex-col rounded-xl bg-muted/20 dark:bg-muted/40 p-4 lg:col-span-2">
+      <div className="relative flex h-full flex-col rounded-xl p-4 lg:col-span-2">
         <ChatMessageList ref={messagesContainerRef}>
           {/* Chat messages */}
           <AnimatePresence>
@@ -189,7 +189,8 @@ export default function Page() {
           </AnimatePresence>
         </ChatMessageList>
         <div className="flex-1" />
-        <form
+        <div className="w-full fixed bottom-3 max-w-7xl">
+<form
           ref={formRef}
           onSubmit={handleSendMessage}
           className="relative rounded-lg border bg-background focus-within:ring-1 focus-within:ring-ring"
@@ -223,6 +224,8 @@ export default function Page() {
             </Button>
           </div>
         </form>
+        </div>
+        
       </div>
     </div>
   );
