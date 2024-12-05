@@ -1,10 +1,9 @@
-import { TopMainNav } from "@/components/navigation/top-main-nav";
-import { Spacer } from "@/components/spacer";
-import { PropsWithChildren } from "react";
+import { MainAppTopNav } from "@/components/navigation/app-nav";
+import { ReactNode } from "react";
 
-export default function MainAppLayout(props: PropsWithChildren) {
+export default function MainAppLayout({ children }: { children: ReactNode }) {
     return <>
-        <Spacer className="h-4" />
-        <TopMainNav />
-        {props.children}</>
+        <MainAppTopNav />
+        {children}
+    </>
 }
