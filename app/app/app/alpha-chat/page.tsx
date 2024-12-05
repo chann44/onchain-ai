@@ -1,3 +1,3 @@
-export function AlphaChatPage() {
+export default function AlphaChatPage() {
     return <>Alpha Chat Page</>
 }
