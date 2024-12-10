@@ -25,7 +25,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 const DATA = {
   navbar: [
     { href: "/app/agents", icon: BotMessageSquare, label: "Agents" },
-    { href: "#", icon: CircleFadingPlus, label: "Alpha Chat" },
+    { href: "/app/alpha-chat", icon: CircleFadingPlus, label: "Alpha Chat" },
     { href: "#", icon: ChartNoAxesCombined, label: "Trade" },
   ],
 };
